@@ -8,7 +8,7 @@ Marketplace performance is typically evaluated using static, aggregate seller me
 
 This project focuses on detecting seller performance degradation early, using time-based (rolling) analysis of delivery latency, review trends, and order behavior to identify risk before it becomes visible in standard reporting.
 
-### Why this matters
+**Why this matters**
 1. Prevents customer experience decline before it happens
 2. Enables proactive intervention instead of reactive firefighting
 3. Improves marketplace trust, retention, and revenue stability
@@ -17,7 +17,7 @@ This project focuses on detecting seller performance degradation early, using ti
 
 In simple terms:
 
-* It helps operations teams fix problems weeks earlier instead of reacting after customers are already unhappy. 
+_It helps operations teams fix problems weeks earlier instead of reacting after customers are already unhappy._
 
 ## Project Structure
 data/: Stores all datasets at different stages.
