@@ -1,0 +1,24 @@
+[project]
+name = "analytics-copilot"
+version = "0.1.0"
+description = "AI-powered analytics copilot for marketplace decision support"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Nony" }
+]
+
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "scikit-learn",
+  "streamlit",
+  "duckdb",
+  "pytest",
+  "jupyter"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
